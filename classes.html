@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title> Science Hub TT Design </title>
+	<link rel="stylesheet" href="sciencehubstylesheet1.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+		<a href="index.html"><img src="images/logo1.png"alt="logo"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT </a></li>
+				<li><a href="classes.html">CLASSES</a></li>
+				<li><a href="homework.html">HOMEWORK HELP</a></li>
+				<li><a href="register.html">REGISTER</a></li>
+				<li><a href="contact.html">CONTACT US</a></li>
+				
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+
+	</nav>
+<h1>CLASSES OFFERED</h1>
+</section>
+
+<section class="subjects"> 
+
+<!------------------- Subject Areas----------------->
+
+
+<h1> Explore our Science Curriculum</h1>
+<p>At Science Hub, our curriculum is designed to ignite curiosity and foster a deep understanding of the scientific world. We offer a wide range of subjects to cater to diverse interests and educational needs.</p>
+<div class="row">
+	<div class="subject-column">
+		<img src="images/hsb 1.jpg" alt="human and social biology">
+		<div class="layer">
+			<h3>Human and Social Biology</h3>
+			
+		</div>
+	</div>
+	<div class="subject-column">
+		<img src="images/bio.png" alt="biology">
+		<div class="layer">
+			<h3>Biology</h3>
+		</div>
+	</div>
+	<div class="subject-column">
+		<img src="images/chem.png" alt="chemistry">
+		<div class="layer">
+			<h3>Chemistry</h3>
+		</div>
+	</div>
+</div>
+
+		
+</section>
+
+<h2 align="center"><a href="register.html"class="register-button " >Get Started Today!</a></h2>
+		
+
+<!------------------------Services Offered------------------->
+<section class="What-we-offer">
+	<h1> What we offer</h1>
+	<p>  We offer a variety of engaging content tailored to help students master key science subjects.</p>
+
+	<div class="row">
+		<div class="class-column">
+			<a href="register.html"><h3>Live Tutoring Sessions</h3></a>
+			<p>Connect with experienced tutors for one on one support and mentoring.</p>
+		</div>
+	
+		<div class="class-column">
+			<a href="register.html"><h3>Interactive Quizzes</h3></a>
+			<p>Test your knowledge and track your progress with our interactive quizzes.</p>
+		</div>
+		<div class="class-column">
+			<a href="register.html"><h3>Comprehensive Video Lessons</h3></a>
+			<p>Our library of video lessons covers a wide range of science topics, from basic concepts to advanced theories.</p>
+		</div>
+	</div>
+</section>
+
+<!-----------------Footer-------------------------->
+<section class="footer">
+	<div class="icons">
+		<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+		<a href="mailto:sciencehubtt@gmail.com"><i class="fa fa-envelope"></i></a>
+		<a href="https://wa.me/18683545995" target="_blank"><i class="fa fa-whatsapp"></i></a>
+		<a href="https://www.linkedin.com/in/zandyjames" target="_blank"><i class="fa fa-linkedin"></i></a>
+
+	</div>
+	<p>&copy; 2024 Science Hub TT. All rights reserved.</p>
+	
+</section>
+
+
+
+
+
+
+<!---JavaScript for Toggle Menu -->
+<script>
+	var navLinks = document.getElementById("navLinks")
+	function showMenu(){
+		navLinks.style.right ="0"
+	}
+	function hideMenu(){
+		navLinks.style.right="-200px"
+	}
+	
+</script>
+</body>
+</html> 
